@@ -2,7 +2,6 @@ package in.nitingrover.BookMyShow.model;
 
 import in.nitingrover.BookMyShow.model.constant.TicketStatus;
 import jakarta.persistence.*;
-import jdk.incubator.vector.LongVector;
 import lombok.Getter;
 import lombok.Setter;
 

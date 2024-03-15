@@ -2,7 +2,6 @@ package in.nitingrover.BookMyShow.model;
 
 import in.nitingrover.BookMyShow.model.constant.SeatStatus;
 import in.nitingrover.BookMyShow.model.constant.SeatType;
-import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -16,8 +15,8 @@ public class Seat extends BaseModel{
     private String seatNumber;
     @Enumerated(EnumType.STRING)
     private SeatType seatType;
-    private int row;
-    private int column;
+    private int rows;
+    private int columns;
     @Enumerated(EnumType.STRING)
     private SeatStatus seatStatus;
 }

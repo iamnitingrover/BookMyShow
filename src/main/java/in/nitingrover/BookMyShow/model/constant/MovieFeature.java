@@ -1,6 +1,6 @@
 package in.nitingrover.BookMyShow.model.constant;
 
-public enum AuditoriumFeature {
+public enum MovieFeature {
     TwoD,
     ThreeD,
     IMAX,

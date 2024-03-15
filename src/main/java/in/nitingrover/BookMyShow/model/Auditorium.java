@@ -17,7 +17,7 @@ public class Auditorium extends BaseModel{
     private List<Show> shows;
     @OneToMany
     private List<Seat> seats;
-    @ElementCollection // userd when Enum is in multuiple, iem a data structure eg - List, Set, etc.
-    @Enumerated(EnumType.STRING)  // creates a relationship between the entitity and enum in DB.
+    @ElementCollection // used when Enum is in multiple, ie a data structure eg - List, Set, etc.
+    @Enumerated(EnumType.STRING)  // creates a relationship between the entity and enum in DB.
     private List<AuditoriumFeature> auditoriumFeatures;
 }

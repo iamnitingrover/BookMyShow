@@ -2,6 +2,7 @@ package in.nitingrover.BookMyShow.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,5 +19,6 @@ public class Show extends BaseModel{
     private Movie movie;
     @ManyToOne
     private Auditorium auditorium;
-    private List<ShowSeat> showSeats; //TODO
+    @OneToMany
+    private List<ShowSeat> showSeats;
 }

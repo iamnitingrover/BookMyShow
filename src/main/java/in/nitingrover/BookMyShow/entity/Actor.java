@@ -1,4 +1,4 @@
-package in.nitingrover.BookMyShow.model;
+package in.nitingrover.BookMyShow.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToMany;

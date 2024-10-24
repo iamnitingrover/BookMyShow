@@ -1,7 +1,6 @@
 package in.nitingrover.BookMyShow.repository;
 
-import in.nitingrover.BookMyShow.model.City;
-import in.nitingrover.BookMyShow.model.Movie;
+import in.nitingrover.BookMyShow.entity.Movie;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

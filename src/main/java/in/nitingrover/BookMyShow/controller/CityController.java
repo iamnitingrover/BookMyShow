@@ -1,7 +1,7 @@
 package in.nitingrover.BookMyShow.controller;
 
 import in.nitingrover.BookMyShow.dto.CityRequestDTO;
-import in.nitingrover.BookMyShow.model.City;
+import in.nitingrover.BookMyShow.entity.City;
 import in.nitingrover.BookMyShow.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

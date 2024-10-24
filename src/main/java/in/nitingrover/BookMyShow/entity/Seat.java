@@ -1,7 +1,7 @@
-package in.nitingrover.BookMyShow.model;
+package in.nitingrover.BookMyShow.entity;
 
-import in.nitingrover.BookMyShow.model.constant.SeatStatus;
-import in.nitingrover.BookMyShow.model.constant.SeatType;
+import in.nitingrover.BookMyShow.entity.constant.SeatStatus;
+import in.nitingrover.BookMyShow.entity.constant.SeatType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

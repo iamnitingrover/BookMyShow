@@ -1,4 +1,4 @@
-package in.nitingrover.BookMyShow.model;
+package in.nitingrover.BookMyShow.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
@@ -9,10 +9,9 @@ import java.util.List;
 
 @Getter
 @Setter
-@Entity(name = "BMS_User")
-public class User extends BaseModel{
+@Entity
+public class City extends BaseModel{
     private String name;
-    private String email;
     @OneToMany
-    private List<Ticket> tickets;
+    private List<Theater> theaters;
 }

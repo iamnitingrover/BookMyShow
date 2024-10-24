@@ -1,6 +1,6 @@
-package in.nitingrover.BookMyShow.model;
+package in.nitingrover.BookMyShow.entity;
 
-import in.nitingrover.BookMyShow.model.constant.MovieFeature;
+import in.nitingrover.BookMyShow.entity.constant.MovieFeature;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

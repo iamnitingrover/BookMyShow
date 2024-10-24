@@ -1,6 +1,6 @@
 package in.nitingrover.BookMyShow.service;
 
-import in.nitingrover.BookMyShow.model.City;
+import in.nitingrover.BookMyShow.entity.City;
 import in.nitingrover.BookMyShow.repository.CityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
